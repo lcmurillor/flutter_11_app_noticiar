@@ -32,7 +32,7 @@ class _CategoryList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final categories = Provider.of<NewServices>(context).categories;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       height: 80,
       child: ListView.builder(
